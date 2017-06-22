@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.matt.autocalendar.MainActivity">
+
+    <ScrollView
+        android:layout_width="57dp"
+        android:layout_height="513dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:text="8 am"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/editText20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:text="9 am"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/editText21"
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none|time"
+                android:text="10 am"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/editText22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none|text"
+                android:text="11 am"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/editText23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:text="12 pm"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/editText24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:text="1 pm"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/editText25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:text="2 pm"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/editText26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:text="3 pm"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/editText27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:text="4 pm"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/editText28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:text="5 pm"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/editText29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:text="6 pm"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/editText30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:text="7 pm"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/editText31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:text="8 pm"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/editText32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:text="9 pm"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/editText33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none"
+                android:text="10 pm"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/editText34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="none|time"
+                android:text="11 pm"
+                android:editable="false"/>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
